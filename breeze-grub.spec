@@ -4,7 +4,7 @@
 
 Summary:	The Breeze theme for the GRUB bootloader
 Name:		breeze-grub
-Version:	5.15.2
+Version:	5.15.3
 Release:	1
 License:	GPL
 Group:		Graphical desktop/KDE
