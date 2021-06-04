@@ -1,10 +1,8 @@
-%define _enable_debug_packages %{nil}
-%define debug_package %{nil}
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 70 ] && echo -n un; echo -n stable)
 
 Summary:	The Breeze theme for the GRUB bootloader
 Name:		breeze-grub
-Version:	5.21.5
+Version:	5.22.0
 Release:	1
 License:	GPL
 Group:		Graphical desktop/KDE
