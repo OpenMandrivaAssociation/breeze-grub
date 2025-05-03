@@ -6,7 +6,7 @@
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 Summary:	The Breeze theme for the GRUB bootloader
-Name:		plasma6-breeze-grub
+Name:		breeze-grub
 Version:	6.3.4
 Release:	%{?git:0.%{git}.}1
 License:	GPL
@@ -21,6 +21,8 @@ Source0:	http://download.kde.org/%{stable}/plasma/%(echo %{version} |cut -d. -f1
 Requires:	grub2
 %endif
 BuildArch:	noarch
+# Renamed after 6.0 for 2025-05-03
+%rename plasma6-breeze-grub
 
 %description
 This package contains a version of the KDE Breeze theme for
